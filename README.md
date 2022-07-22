@@ -8,6 +8,12 @@ This project consists of 3 parts:
 # Obstacales
 I finished this test assignment with one week delay. I don't think that with 2-3hours a day one week is plausible for this assignment. In the beginning, I used Elastic Beanstalk but in the end, I gave up and switched to EC2 Instance for the API.
 
+# Screenshots
+<img width="826" alt="image" src="https://user-images.githubusercontent.com/4738307/180428044-880e0f13-2070-49b3-aae4-bebd60ede388.png">
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/4738307/180428111-49dc723a-b682-4ccf-bca6-eee59260278e.png">
+<img width="633" alt="image" src="https://user-images.githubusercontent.com/4738307/180428321-128839cc-7b5a-46fe-92f0-44aca7bcf451.png">
+
+
 # Api
 I decided to use Nodejs and Fastify as a web framework. You can read about Fastify [here](https://www.fastify.io). The main advantage for me is that Fastify can guarantee data contract for requests and responses also it supports Typescript which makes the development process less buggy.
 
