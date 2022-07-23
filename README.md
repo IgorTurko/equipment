@@ -32,7 +32,7 @@ I decided to use Nodejs and Fastify as a web framework. You can read about Fasti
 - Also adding a docker container for running this app could be a good idea as well;
 
 # Frontend
-Create react app was used, as it contains everything for fast development. [Chakra UI](https://chakra-ui.com/) was chosen as a UI library. Chakra UI provides a set of accessible, reusable, and composable React components that make it easy to create react pages. Also [storybook](https://storybook.js.org) for testing component's look and feel.
+Create react app was used, as it contains everything for fast development. [Chakra UI](https://chakra-ui.com/) was chosen as a UI library. Chakra UI provides a set of accessible, reusable, and composable React components that make it easy to create react pages. Also [storybook](https://storybook.js.org) for testing component's look and feel. One interesting library I use in this project is [io-ts](https://github.com/gcanti/io-ts) for runtime types decoding/engoding, when there is a need to validate data from other services/api (equipment-api) this library is very convinient.
 
 #### What was done?
 - A page for listing equipment;
